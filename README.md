@@ -12,7 +12,7 @@
 - Previously, I had been a [committer in Eclipse Foundation](https://projects.eclipse.org/content/marcel-valovy-committer-eclipselink-project) I worked on open source projects such as EclipseLink and have specialized in developing new, popular libraries used in all Oracle WebLogic and IBM Websphere servers all over the world, e.g. https://stackoverflow.com/a/33074344/3832336 https://bugs.eclipse.org/bugs/show_bug.cgi?id=463173 
 - I speak fluent/native English, Czech, Russian et un petit francaise. Right now, I'm learning Italian.
 - I studied at The University of Queensland, Australia; Prague University of Economics and Business, Czech Republic; and Charles University, Czech Republic.
-- I also possess rich foundation in the knowledge about blockchain technologies and algorithmic trading.
+- I also have knowledge about blockchain technologies and algorithmic trading.
 
 <!--
 **marcelv3612/marcelv3612** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
