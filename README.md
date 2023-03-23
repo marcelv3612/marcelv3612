@@ -4,7 +4,7 @@
 
 |  |
 | --- 
-| I am teaching Software Engineering at Prague University of Economics and Business. I also do PhD research on Motivation of Software Engineers using mixed-methods analysis (HCA, IPA, TA). My experience includes creating a Java 9 library Bean Validation in JAXB. Currently I am oriented toward frontend technologies.
+| I am teaching Software Engineering at Prague University of Economics and Business. I also do PhD research on Motivation of Software Engineers using mixed-methods analysis (HCA, IPA, TA). My experience includes creating a Java 9 library Bean Validation in JAXB. Currently I am oriented toward both backend and frontend scalable technologies using microservices and event-driven architectural patterns including event-sourcing, command query responsibility segregation, transactional outbox, and others.
 |  |
 
 - I'm currently working at Accamar as a senior consultant / full stack web developer helping the clients of Adastra to succeed.
