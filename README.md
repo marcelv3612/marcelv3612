@@ -2,12 +2,12 @@
 
 ### 🎓 Marcel Valový – A Technologist & Scholar:
 
+- 🏁 Developing high-quality, well-performing microservice and event-driven solutions that are modular, extensible, follow design patterns, and are easy to use/read. In a short time.
 - 🔭 Educator at Prague University of Economics and Business;
-- 🌱 PhD Researcher delving into Software Engineer Motivation and Pair and AI-assisted programming with a mixed-methods experimental approach.
+- 🌱 PhD Researcher immersed in Software Engineer Motivation and Pair and AI-assisted programming with a mixed-methods experimental approach. Member of the QEIS expert research group.
 - 🥼 Designed, executed, and published multiple scientific experimental AI-human studies presented at CORE-A conferences.
-- 🛠 Open-Source Contributor; Eclipse Committer, Java 9 contributor. Key projects: EclipseLink, Bean Validation in JAXB, HomeCredit HOMER Suite, and others.
-- 🤖 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.
-- 💼 Professional Background in Backend, Frontend, and DevOps; Kotlin, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
+- 🛠 Open-Source EclipseLink Committer, Java 9 contributor. JSR-303 in JAXB author, co-author of HomeCredit HOMER Suite, and others.
+- 🙂 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.- 💼 Professional Background in Backend, Frontend, and DevOps; Kotlin, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
 - 🌍 Polyglot; English, Czech, Russian, French, German, Portuguese.
 - 🎤 Speaker & Mentor; advocating quantum computing and AI.
-- 🏛 Educated at prestigious institutions; The University of Queensland, Charles University, Prague University of Economics and Business.
+- 🏛 University of Queensland, Charles University, Prague University of Economics and Business.
