@@ -4,6 +4,7 @@
 
 - 🔭 Educator at Prague University of Economics and Business;
 - 🌱 PhD Researcher delving into Software Engineer Motivation and Pair and AI-assisted programming with a mixed-methods experimental approach.
+- 🥼 Designed, executed, and published multiple scientific experimental AI-human studies presented at CORE-A conferences.
 - 🛠 Open-Source Contributor; Eclipse Committer, Java 9 contributor. Key projects: EclipseLink, Bean Validation in JAXB, HomeCredit HOMER Suite, and others.
 - 🤖 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.
 - 💼 Professional Background in Backend, Frontend, and DevOps; Kotlin, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
