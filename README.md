@@ -1,8 +1,9 @@
 [![StackOverflow Reputation: 666](https://img.shields.io/badge/StackOverflow-666-F27F33?logo=stackoverflow)](https://stackoverflow.com/users/3832336/marcelv3612) [![Last updated: less than 1 hour*](https://img.shields.io/badge/last%20updated-less%20than%201%20hour*-green)](https://github.com/marcelv3612/marcelv3612/actions)
 
-### 🎓 Marcel Valový – A Technologist & Scholar:
+## 🎓 Marcel Valový – Researcher and open-source dev:
 
-- 🏁 Developing high-quality, well-performing microservice and event-driven solutions that are modular, extensible, follow design patterns, and are easy to use/read. In a short time.
+#### Developing high-quality, well-performing microservice and event-driven solutions that are modular, extensible, follow design patterns, and are easy to use/read. In a short time.
+
 - 🔭 Educator at Prague University of Economics and Business;
 - 🌱 PhD Researcher immersed in Software Engineer Motivation and Pair and AI-assisted programming with a mixed-methods experimental approach. Member of the QEIS expert research group.
 - 🥼 Designed, executed, and published multiple scientific experimental AI-human studies presented at CORE-A conferences.
