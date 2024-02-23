@@ -9,6 +9,6 @@
 - 🥼 Designed, executed, and published multiple scientific experimental AI-human studies presented at CORE-A conferences.
 - 🛠 Open-Source EclipseLink Committer, Java 9 contributor. JSR-303 in JAXB author, co-author of HomeCredit HOMER Suite, and others.
 - 🙂 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.- 💼 Professional Background in Backend, Frontend, and DevOps; Kotlin, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
-- 🌍 Polyglot; English, Czech, Russian, French, German, Portuguese.
+- 🌍 English, Czech, Russian, French, German, Portuguese.
 - 🎤 Speaker & Mentor; advocating quantum computing and AI.
 - 🏛 University of Queensland, Charles University, Prague University of Economics and Business.
