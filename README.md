@@ -4,11 +4,10 @@
 
 #### Developing high-quality, well-performing microservice and event-driven solutions that are modular, extensible, follow design patterns, and are easy to use/read. In a short time.
 
-- 🔭 Educator at Prague University of Economics and Business; Leading faculty grant projects on psychology, artificial intelligence, and VSEs for four years.
-- 🌱 PhD Researcher on Software Professional Motivation and Pair and AI-assisted programming with a mixed-methods experimental approach.
+- 🔭 Researcher, Educator, and Master Theses Supervisor on: Quantum Computing, Metaverse, Artificial Intelligence, Cryptocurrency Bots & UX/UI platforms, OpenAI API apps, Web-Scraping, Psychology.
 - 🔬 Contributing Member in QEIS Expert Group, IEEE Computer Society, ACM, AIS, APA, Nature, & Science.
 - 📣 Active Speaker at top-tier intl. conferences such as ICSME 2023 (Bogotá, CO), EASE 2023 (Oulu, FI), CIMPS 2022 (Acapulco, MX), PPIG 2021 & 2022 (Cambridge, UK), IDIMT 2022 (Kutná Hora, CZ).
-- 🥼 Designed, executed, and published multiple scientific experimental AI-human studies presented at CORE-A conferences.
+
 - 🛠 Open-Source EclipseLink Committer, Java 9 contributor. JSR-303 in JAXB author, co-author of HomeCredit HOMER Suite, and others.
 - 🙂 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.- 💼 Professional Background in Backend, Frontend, and DevOps; Kotlin, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
 - 🌍 English, Czech, Russian, French, German, Portuguese.
