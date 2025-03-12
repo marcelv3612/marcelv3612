@@ -7,7 +7,7 @@
 - 🔭 Researcher, Educator, and Master Theses Supervisor on Quantum Computing, Metaverse, Artificial Intelligence, Cryptocurrency Bots & UX/UI platforms, OpenAI API apps, Web-Scraping, Psychology, and Neurotechnology
 .
 - 🔬 Contributing Member in QEIS Expert Group, IEEE Computer Society, ACM, AIS, APA, Nature, & Science.
-- 📣 Active Speaker at top-tier intl. conferences such as ICSME 2023 (Bogotá, CO), EASE 2023 (Oulu, FI), CIMPS 2022 (Acapulco, MX), PPIG 2021 & 2022 (Cambridge, UK), IDIMT 2022 (Kutná Hora, CZ).
+- 📣 Active Speaker at top-tier intl. conferences such as ACIE 2025 (Phuket, TH), ICSME 2023 (Bogotá, CO), EASE 2023 (Oulu, FI), CIMPS 2022 (Acapulco, MX), PPIG 2021 & 2022 (Cambridge, UK), IDIMT 2022 (Kutná Hora, CZ), and more.
 
 - 🛠 Open-Source Blockchain Developer, EclipseLink Committer, Java 9 contributor. JSR-303 in JAXB author, co-author of HomeCredit HOMER Suite, and others.
 - 🙂 Developing my own Custom GPTs, Trading Bots, and better UX/UI for trading from the psychological perspective.- 💼 Professional Background in Backend, Frontend, and DevOps; Rust, Kotlin, Blockchain, Java, React, TypeScript, Node.js, Kubernetes, Docker, GitLab, Jenkins, and others.
