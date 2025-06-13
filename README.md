@@ -44,7 +44,7 @@ let expertise = vec![
 
 - 🎯 **57-92%** performance gain in JAXB marshalling
 - 🏦 **10M+** records in T-Mobile consent system
-- 💳 **13** microservices for crypto savings platform
+- 💳 **100+** microservices T-Mobile, DNZ Finance, Adastra, Oracle Corp, Gemalto, IDC, HomeCredit Intl, and others
 - 📝 **10+** peer-reviewed publications
 - 🎓 **10+** supervised thesis projects
 - 🚀 **Solo DevOps** for enterprise B2B platform
