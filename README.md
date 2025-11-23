@@ -1,59 +1,64 @@
-# 👋 Marcel Valový
+# 👋 Marcel Valový, PhD
 
 <div align="center">
   
-**Open Source Advocate | Systems Architect | Blockchain Researcher**
+**AI Agent Platform Engineer | Eclipse Committer | Human-AI Collaboration Researcher**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/marcelv3612)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB)](https://www.researchgate.net/profile/Marcel-Valovy)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4)](https://scholar.google.com)
 [![Stack Overflow](https://img.shields.io/badge/StackOverflow-663-orange)](https://stackoverflow.com/users/3832336/marcelv3612)
 
 </div>
 
+---
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🚀 Professional Focus
-
+### 🚀 What I Build
 ```rust
-let expertise = vec![
-    "High-performance systems",
-    "Event-driven microservices",
-    "Blockchain & DLT",
-    "AI-assisted development"
+let current_focus = vec![
+    "AI agent platforms & orchestration",
+    "High-performance trading systems", 
+    "Event-driven microservices at scale",
+    "ML-powered automation"
 ];
 ```
 
-**Current Roles:**
-- 🔧 Eclipse Committer & Java SDK Contributor  
-- 📚 PhD Candidate (Defense: Sept 2025)
-- 🏗️ Systems Architect @ Trade Guard Software
-- 🌍 Remote-first global collaborator
+**Current:**
+- 🤖 Founder/CEO @ [TradeGuard](https://tradeguard.software) - AI trading platform (90% success rate, revenue-generating)
+- 🏦 Senior/Staff Engineer @ EuroWAG - ML invoice automation, MCP research
+- 🔧 Eclipse Foundation Committer (50+ contributions)
+- 🎓 PhD in Human-AI Collaboration (Defended Oct 2025)
 
 **Tech Stack:**
-- **Languages:** Rust • Java • Kotlin • TypeScript
-- **Backend:** Spring Boot • Kafka • WebFlux • gRPC
-- **Cloud:** Kubernetes • Docker • AWS • GitLab CI/CD
-- **Data:** PostgreSQL • MongoDB • Redis • Debezium
+- **Systems:** Rust • Java • Kotlin • Python • TypeScript
+- **AI/ML:** LangChain • MCP • OpenAI API • scikit-learn • PyTorch
+- **Backend:** Spring Boot • Quarkus • Micronaut • Kafka • gRPC
+- **Cloud:** Kubernetes • Docker • Azure • AWS • Pulumi IaC
+- **Data:** PostgreSQL • Cosmos DB • MongoDB • Redis
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 Recent Achievements
+### 📊 Impact & Achievements
 
-- 🎯 **57-92%** performance gain in JAXB marshalling
-- 🏦 **10M+** records in T-Mobile consent system
-- 💳 **100+** microservices T-Mobile, DNZ Finance, Adastra, Oracle Corp, Gemalto, IDC, HomeCredit Intl, and others
-- 📝 **10+** peer-reviewed publications
-- 🎓 **10+** supervised thesis projects
-- 🚀 **Solo DevOps** for enterprise B2B platform
+**Production Systems:**
+- 🎯 **90%** trader success rate (TradeGuard, 200+ validated)
+- 💰 **800K CZK** revenue from AI platform
+- ⚡ **<10ms** latency high-frequency trading engine
+- 🏦 **600K+** transactions/hour (EuroWAG payments)
+- 🤖 **70%** automation rate (ML invoice processing)
+- 📈 **300K+** transactions/min (T-Mobile fintech)
 
-**Latest Projects:**
-- **T-Mobile B2C:** CQRS consent management with Kafka
-- **T-Mobile B2B:** Business portal + geo-location services
-- **DNZ Finance:** Automated crypto investment platform
-- **Ministry of Interior:** Emergency services upgrade
+**Research & Open Source:**
+- 📝 **10** peer-reviewed publications (50+ citations)
+- 🏆 **3** Best Paper Awards
+- 🎓 **200+** students taught, 20+ theses supervised
+- 🔧 **Eclipse Committer** - Java 9 SDK contributor (JSR-303)
+- ⚡ **57-92%** performance improvements (JAXB)
 
 </td>
 </tr>
@@ -65,34 +70,116 @@ let expertise = vec![
 <tr>
 <td width="50%" valign="top">
 
-### 🔬 Research & Academia
+### 🔬 Research: Human-AI Collaboration
 
-**PhD Dissertation:**  
-*"Human-AI Programming Role Optimization"*
+**PhD Dissertation (2025):**  
+*"Human-AI Programming Role Optimization: Developing a Self-Determination Framework"*
 
-**Recent Publications:**
-- ACIE'25: "Blockchain-Driven Transparent Research"
-- PeerJ CS: "Personality-Driven Co-programming" (Q1)
-- ICSME'23: "AI Pair Programming Impact"
+**Key Finding:**  
+AI-assisted development increases motivation by **23-65%** when optimized for individual personality types and working styles.
 
-**Teaching & Mentoring:**
-- Software Engineering (4IT115) - 200+ students
-- Thesis topics: Quantum Computing, AI, Blockchain, VR/Metaverse
+**Select Publications:**
+- **PeerJ CS** (Q1): "Personality-Driven Pair Programming" 
+- **IEEE ICSME** (CORE-A): "Psychological Effects of AI-Assisted Programming" (30 citations)
+- **EASE** (CORE-A): "Psychological Aspects of Pair Programming"
+- **ACIE'25**: "Blockchain-Driven Transparent Research" (Best Paper)
+
+**Applied to:**
+- TradeGuard adaptive AI interface design
+- ML-powered developer tools at EuroWAG
+- Behavioral risk detection systems
 
 </td>
 <td width="50%" valign="top">
 
-### 🌟 Open Source Contributions
+### 💡 Featured Projects
 
-**Major Projects:**
-- [EclipseLink](https://github.com/eclipse-ee4j/eclipselink) - Core contributor
-- JSR-303 Bean Validation in JAXB - Author
-- Java 9 SDK - JAXB implementation
+**🤖 [TradeGuard](https://tradeguard.software)** - AI Behavioral Trading Platform
+```rust
+// High-performance Rust engine
+async fn process_market_data(
+    exchange: &Exchange,
+    risk_model: &ProspectTheory
+) -> Decision {
+    let data = exchange.stream().await?;
+    risk_model.evaluate(data, user_profile)
+}
+```
+- Rust trading engine (<10ms latency)
+- Python ML (Prospect Theory, emotion detection)
+- React Native mobile + web dashboard
+- 90% success rate, academically validated
 
-**Community Impact:**
-- Eclipse Foundation Committer
-- 50+ merged contributions
-- Active in Java & Rust communities
+**🏦 EuroWAG** - ML Invoice Automation
+```python
+# ML-powered fuzzy matching
+def match_invoice(vendor_data, customer_invoice):
+    features = extract_features(vendor_data)
+    return ml_model.predict(features) > 0.7
+```
+- 70% automation rate (500K txs/month)
+- MCP server research for AI agents
+- LangChain integration (experimental)
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🌟 Open Source
+
+**Eclipse Foundation:**
+- [EclipseLink](https://github.com/eclipse-ee4j/eclipselink) contributor
+- JSR-303 Bean Validation (JAXB)
+- Java 9 SDK enhancements
+- 50+ merged PRs
+
+**Community:**
+- Active in Java & Rust ecosystems
+- Stack Overflow contributor
+- Open to collaboration
+
+</td>
+<td width="33%" valign="top">
+
+### 🎯 Enterprise Experience
+
+**15+ Years Building:**
+- 100+ microservices in production
+- Systems serving millions of users
+- Fintech, CRM, IoT platforms
+- Multi-exchange integrations
+
+**Clients Include:**
+- T-Mobile Czech Republic
+- DNZ Finance  
+- Ministry of Interior CZ
+- Rockwell Automation
+- Home Credit International
+- Oracle Corporation
+
+</td>
+<td width="33%" valign="top">
+
+### 🔧 Current Interests
+
+**Exploring:**
+- MCP (Model Context Protocol) servers
+- AI agent orchestration patterns
+- Behavioral AI for decision-making
+- High-performance Rust systems
+- Multi-modal AI applications
+
+**Looking For:**
+- AI agent platform roles
+- Research engineering positions
+- Human-AI collaboration projects
+- Open source contributions
 
 </td>
 </tr>
@@ -102,47 +189,27 @@ let expertise = vec![
 
 <div align="center">
 
-### 💡 Featured Code
+### 💬 Let's Connect
 
-<table>
-<tr>
-<td>
+**Open to:**  
+AI Agent Platform Engineering • Research Collaboration • Technical Consulting
 
-```java
-// High-performance JAXB optimization
-@Memoized
-public ValidationResult validate(Object bean) {
-    return cache.computeIfAbsent(
-        bean.getClass(),
-        k -> performValidation(bean)
-    );
-}
-```
+📧 **marcelv3612@gmail.com**  
+🌏 **Location:** Prague/Asia (Remote-first)  
+💼 **Seeking:** Research Engineer roles at frontier AI labs
 
-</td>
-<td>
+---
 
-```rust
-// Event-driven microservice pattern
-async fn process_event(
-    event: Event,
-    kafka: &Producer
-) -> Result<()> {
-    let result = transform(event)?;
-    kafka.send(&result).await
-}
-```
+*"The best AI systems don't replace humans—they make us more capable."*
 
-</td>
-</tr>
-</table>
+---
 
-### 📫 Let's Connect
+### 🏆 Quick Stats
 
-**Open to remote consulting in:** Distributed Systems • Blockchain • Performance Engineering
-
-marcelv3612@gmail.com
-
-*"The best code is not just functional, but also a joy to maintain and extend."*
+![](https://img.shields.io/badge/Languages-Czech%20%7C%20English%20%7C%20Russian-blue)
+![](https://img.shields.io/badge/Experience-15%2B%20years-green)
+![](https://img.shields.io/badge/Publications-10%2B-orange)
+![](https://img.shields.io/badge/Citations-50%2B-red)
+![](https://img.shields.io/badge/Students-200%2B-purple)
 
 </div>
