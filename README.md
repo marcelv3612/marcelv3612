@@ -43,13 +43,14 @@ let current_focus = vec![
 **Agent Orchestration:**
 - MCP (Model Context Protocol) servers
 - LangChain & LangGraph workflows
-- Claude Code, GitHub Copilot, Gemini CLI
+- Claude Code, Cursor, Codex, Gemini CLI
 - Custom agentic pipelines
 
 **LLM & Embeddings:**
-- OpenAI API (GPT-4, text-embedding-3-small)
-- Azure AI Foundry
-- Anthropic Claude API
+- Anthropic Claude (primary) • Kimi • OpenAI APIs
+- Azure AI Foundry • AWS Bedrock
+- Model selection & routing • evals with golden sets
+- HuggingFace Transformers • local inference (Ollama, llama.cpp)
 - RAG implementations
 
 **Vector Databases:**
@@ -140,7 +141,7 @@ async def search_documents(query: str) -> list[Document]:
     embeddings = openai.embed(query)
     return vector_db.similarity_search(embeddings, k=10)
 ```
-- Tool integration for Claude, GPT-4
+- Tool integration for Claude, Kimi, and GPT-class models
 - Enterprise knowledge base access
 - Automated code review pipelines
 - CI/CD documentation generation
