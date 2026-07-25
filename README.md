@@ -1,12 +1,12 @@
 # 👋 Marcel Valový, PhD
 
 <div align="center">
-  
-**AI Agent Platform Engineer | MCP Server Developer | Eclipse Committer | Human-AI Collaboration Researcher**
+
+**AI Agent Platform Engineer | MCP Server Developer | Eclipse Committer (Java 9 / JSR-303) | Human-AI Collaboration Researcher**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/marcelv3612)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB)](https://www.researchgate.net/profile/Marcel-Valovy)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4)](https://scholar.google.com)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB)](https://www.researchgate.net/profile/Marcel-Valovy-2)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4)](https://scholar.google.com/citations?user=fQUPwoQAAAAJ)
 [![Stack Overflow](https://img.shields.io/badge/StackOverflow-663-orange)](https://stackoverflow.com/users/3832336/marcelv3612)
 
 </div>
@@ -22,15 +22,16 @@
 let current_focus = vec![
     "AI agent platforms & orchestration",
     "MCP servers for tool integration",
+    "LLM evals & model routing",
     "RAG systems & vector search",
-    "High-performance trading systems", 
+    "High-performance trading systems",
     "Event-driven microservices at scale",
 ];
 ```
 
 **Current:**
+- 🏦 AI Engineering Team Lead @ EuroWAG - leading the AI team: invoice automation (70%+ straight-through), MCP servers, model routing, evals
 - 🤖 Founder/CEO @ [TradeGuard](https://tradeguard.software) - AI trading platform (90% success rate, revenue-generating)
-- 🏦 Senior/Staff Engineer @ EuroWAG - ML automation, MCP servers, AI agents
 - 🔧 Eclipse Foundation Committer (50+ contributions)
 - 🎓 PhD in Human-AI Collaboration (Defended Oct 2025)
 
@@ -71,7 +72,7 @@ let current_focus = vec![
 **Languages:**
 ```
 Rust      ████████████░░  Expert (systems, trading)
-Java      ████████████████ Expert (15+ years)
+Java      ████████████████ Expert (16+ years)
 Kotlin    ████████████░░  Advanced
 Python    ████████████░░  Advanced (ML/AI)
 TypeScript████████░░░░░░  Proficient
@@ -106,14 +107,14 @@ TypeScript████████░░░░░░  Proficient
 | 💰 AI platform revenue | **800K CZK** |
 | ⚡ Trading latency | **<10ms** (Rust engine) |
 | 🏦 Payment throughput | **600K+** txs/hour |
-| 🤖 ML automation rate | **70%** (invoice matching) |
+| 🤖 ML automation rate | **70%+** (invoice matching, 99.99% accuracy) |
 | 📈 Fintech scale | **300K+** txs/min |
 
 **Research & Open Source:**
 | Metric | Achievement |
 |--------|-------------|
-| 📝 Publications | **10** peer-reviewed |
-| 📚 Citations | **50+** |
+| 📝 Publications | **11** peer-reviewed |
+| 📚 Citations | **69** |
 | 🏆 Best Paper Awards | **3** |
 | 🎓 Students taught | **200+** |
 | 🔧 Eclipse PRs | **50+** merged |
@@ -171,9 +172,9 @@ class InvoiceMatcher:
             return AutoMatch(confidence)
         return HumanReview(confidence)
 ```
-- **70% automation rate** on 500K invoices/month
+- **70%+ automation rate** on 500K invoices/month
+- LLM Chat Wizard (MCP tools) for human-in-the-loop
 - OpenAI API for data normalization
-- LangChain for agentic decisions
 - Anomaly detection for fraud
 
 #### 🤖 TradeGuard AI Platform
@@ -203,10 +204,10 @@ impl TradingAgent {
 <tr>
 <td width="60%" valign="top">
 
-**PhD Dissertation (Defended October 2025):**  
+**PhD Dissertation (Defended October 2025):**
 *"Human-AI Programming Role Optimization: Developing a Self-Determination Framework"*
 
-**Key Finding:**  
+**Key Finding:**
 AI-assisted development increases programmer motivation by **23-65%** when optimized for individual personality types (Big Five) and working styles (Self-Determination Theory).
 
 **Practical Applications:**
@@ -219,7 +220,7 @@ AI-assisted development increases programmer motivation by **23-65%** when optim
 <td width="40%" valign="top">
 
 **Select Publications:**
-- **PeerJ CS** (Q1): Personality-Driven Pair Programming 
+- **PeerJ CS** (Q1): Personality-Driven Pair Programming
 - **IEEE ICSME** (CORE-A): AI-Assisted Programming Psychology *(30 citations)*
 - **EASE** (CORE-A): Psychological Aspects of Pair Programming
 - **ACIE'25**: Blockchain-Driven Transparent Research *(Best Paper)*
@@ -255,8 +256,8 @@ AI-assisted development increases programmer motivation by **23-65%** when optim
 
 ### 🎯 Enterprise Experience
 
-**15+ Years Building:**
-- 100+ microservices in production
+**16+ Years Building:**
+- 200+ microservices in production
 - Systems serving millions of users
 - Fintech, CRM, IoT, Trading platforms
 
@@ -295,12 +296,12 @@ AI-assisted development increases programmer motivation by **23-65%** when optim
 
 ### 💬 Let's Connect
 
-**Open to:**  
+**Open to:**
 AI Agent Platform Engineering • MCP Server Development • Research Collaboration • Technical Consulting
 
-📧 **marcelv3612@gmail.com**  
-🌏 **Location:** Prague / Remote-first (currently Asia)  
-💼 **Status:** Exploring AI agent platform & research engineering roles
+📧 **marcel@tradeguard.cz**
+🌏 **Location:** Prague / Remote-first (currently Asia)
+💼 **Status:** Building @ TradeGuard · Leading AI Engineering @ EuroWAG
 
 ---
 
@@ -311,9 +312,9 @@ AI Agent Platform Engineering • MCP Server Development • Research Collaborat
 ### 🏆 Quick Stats
 
 ![](https://img.shields.io/badge/Languages-Czech%20%7C%20English%20%7C%20Russian-blue)
-![](https://img.shields.io/badge/Experience-15%2B%20years-green)
+![](https://img.shields.io/badge/Experience-16%2B%20years-green)
 ![](https://img.shields.io/badge/AI%2FML-MCP%20%7C%20LangChain%20%7C%20RAG-purple)
-![](https://img.shields.io/badge/Publications-10%2B-orange)
-![](https://img.shields.io/badge/Citations-50%2B-red)
+![](https://img.shields.io/badge/Publications-11-orange)
+![](https://img.shields.io/badge/Citations-69-red)
 
 </div>
