@@ -38,7 +38,7 @@ let current_focus = vec![
 **Current:**
 - 🏦 **AI Engineering Team Lead @ EuroWAG** (fintech, fleet payments): touchless invoice pairing, an AI developer platform used by ~100 engineers, AI-driven FinOps
 - 🤖 **Founder @ [TradeGuard](https://tradeguard.software)**: AI trading platform + **Moira**, an eval harness and Agent Factory for trading agents
-- 🎓 **PhD in Human-AI Collaboration** (defended Oct 2025, VŠE Prague)
+- 🎓 **Postdoctoral Researcher (part-time) @ VŠE Prague**: Human-AI Collaboration; PhD defended there Oct 2025
 
 **Previously:**
 - 📡 **Amdocs**: built **aOS**, an agentic platform framework; replaced an LLM retrieval step with deterministic graph queries (precision/recall ~50% → ~95%, median latency 30 s → 1.1 s)
