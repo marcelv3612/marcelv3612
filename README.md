@@ -1,374 +1,184 @@
-# 👋 Marcel Valový, PhD
+# Marcel Valový, PhD
 
 <div align="center">
-
-**AI Engineering Team Lead | Agent Platforms & Evals | MCP Server Developer | Human-AI Collaboration Researcher**
-
-*Ex-Oracle (JAXB · EclipseLink MOXy · JDK 9) · 16+ years shipping enterprise systems*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/marcelv3612)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB)](https://www.researchgate.net/profile/Marcel-Valovy-2)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4)](https://scholar.google.com/citations?user=fQUPwoQAAAAJ)
-[![Stack Overflow](https://img.shields.io/badge/StackOverflow-663-orange)](https://stackoverflow.com/users/3832336/marcelv3612)
-
+<p><strong>AI Engineering Team Lead · Founder of TradeGuard<br>Agent Platforms &amp; Evals · MCP Server Developer · Human–AI Collaboration Researcher</strong></p>
+<p><em>Ex-Oracle · JAXB · EclipseLink MOXy · JDK 9 · 16+ years shipping enterprise systems</em></p>
+<p>
+<a href="https://linkedin.com/in/marcelv3612">LinkedIn</a> ·
+<a href="https://scholar.google.com/citations?user=fQUPwoQAAAAJ">Google Scholar</a> ·
+<a href="https://www.researchgate.net/profile/Marcel-Valovy-2">ResearchGate</a> ·
+<a href="https://stackoverflow.com/users/3832336/marcelv3612">Stack Overflow (663)</a>
+</p>
 </div>
 
----
+**Evals first, architecture second.** I build agentic systems around golden sets, measured baselines and deterministic code wherever it fits. My work connects production AI engineering with research into developer autonomy, motivation and human–AI collaboration.
 
-> **Evals first, architecture second.** I build agentic systems the way I was trained to build research: golden sets before features, measured baselines before claims, and deterministic code wherever an LLM is not earning its place in the path.
+## What I build
 
----
-
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-### 🚀 What I Build
-```rust
-let current_focus = vec![
-    "Evals-first agent development (golden sets, regression gates)",
-    "AI agent platforms & orchestration",
-    "MCP servers & Claude Code toolkits (skills, subagents, plugins)",
-    "Knowledge graphs for agent memory & retrieval",
-    "LLM routing, cost & latency engineering (AI FinOps)",
-    "High-performance trading systems",
-];
-```
-
-**Current:**
-- 🏦 **AI Engineering Team Lead @ EuroWAG** (fintech, fleet payments): touchless invoice pairing, an AI developer platform used by ~100 engineers, AI-driven FinOps
-- 🤖 **Founder @ [TradeGuard](https://tradeguard.software)**: AI trading platform + **Moira**, an eval harness and Agent Factory for trading agents
-- 🎓 **Postdoctoral Researcher (part-time) @ VŠE Prague**: Human-AI Collaboration; PhD defended there Oct 2025
-
-**Previously:**
-- 📡 **Amdocs**: built **aOS**, an agentic platform framework; replaced an LLM retrieval step with deterministic graph queries (precision/recall ~50% → ~95%, median latency 30 s → 1.1 s)
-
+<h3>Current work</h3>
+<ul>
+<li><strong>Founder @ <a href="https://tradeguard.software">TradeGuard</a>:</strong> AI trading infrastructure and Moira, an Enterprise Product Builder for eval-driven product development.</li>
+<li><strong>AI Engineering Team Lead @ EuroWAG:</strong> touchless invoice pairing, an AI developer platform and AI-driven FinOps for fleet payments.</li>
+<li><strong>Current client engagement @ FinnoCore:</strong> building a fintech payment and transaction core.</li>
+<li><strong>Postdoctoral Researcher, part-time @ VŠE Prague:</strong> human–AI collaboration; PhD defended in October 2025.</li>
+</ul>
+<p><strong>Independent project · in development:</strong> payment infrastructure for AI agents, exploring x402, off-chain authorization and batched settlement.</p>
+<p>My focus spans evals-first agent development, orchestration, enterprise MCP servers, knowledge-graph memory and retrieval, LLM routing, cost and latency engineering, and high-performance trading systems.</p>
 </td>
 <td width="50%" valign="top">
-
-### 🤖 AI & Agent Stack
-
-**Agent Orchestration:**
-- MCP (Model Context Protocol) servers
-- Claude Code skills, subagents & plugins
-- LangChain & LangGraph workflows
-- Mixture-of-Agents / agent boards, Agent Factory pattern
-- Claude Code, Cursor, Codex, Gemini CLI
-
-**Evals & Quality:**
-- Golden sets per agent, cross-vendor LLM judging
-- Retrieval precision/recall, hallucination rate, provenance
-- Cost & latency budgets (median / p95)
-
-**LLM & Embeddings:**
-- Anthropic Claude (primary) • Kimi • OpenAI APIs
-- Azure AI Foundry • AWS Bedrock
-- HuggingFace Transformers • local inference (Ollama, llama.cpp)
-
-**Retrieval & Knowledge:**
-- Neo4j / Cypher knowledge graphs
-- pgvectorscale + DiskANN (PostgreSQL)
-- Hybrid search (BM25 + vector)
-
+<h3>AI and agent stack</h3>
+<p><strong>Orchestration:</strong> MCP servers; Claude Code skills, subagents and plugins; LangChain and LangGraph; Mixture-of-Agents, agent boards and the Agent Factory pattern.</p>
+<p><strong>Developer tools:</strong> Claude Code, Cursor, Codex and Gemini CLI.</p>
+<p><strong>Evals:</strong> agent-specific golden sets, cross-vendor LLM judging, precision/recall, hallucination rate, provenance, and median/p95 latency and cost budgets.</p>
+<p><strong>Models:</strong> Anthropic Claude, Kimi, OpenAI APIs, Azure AI Foundry, AWS Bedrock, Hugging Face Transformers, Ollama and llama.cpp.</p>
+<p><strong>Retrieval:</strong> Neo4j/Cypher, pgvectorscale and DiskANN on PostgreSQL, and hybrid BM25/vector search.</p>
 </td>
 </tr>
 </table>
 
----
+## Agent platforms and evaluation
 
-### 🧪 Featured: Agentic Platforms Measured, Not Assumed
-
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-#### 📡 aOS: Agentic Platform Framework (Amdocs)
-Green-field agentic platform (agent board, planner, clerk, knowledge-graph memory). The user-facing agents scored well on golden sets but underperformed in the application, so I wrote golden sets for the retrieval layer itself. The evidence said the LLM "data librarian" was the bottleneck; I replaced it with deterministic, parameterised Cypher behind a deliberately narrow MCP tool, plus new KG schemas and indexes.
-
-```cypher
-// Illustrative: the MCP tool accepts only a search term and optional hops
-CALL db.index.fulltext.queryNodes('entityIndex', $term) YIELD node AS e, score
-CALL apoc.path.subgraphNodes(e, {maxLevel: $hops}) YIELD node AS ctx
-RETURN e, score, collect(DISTINCT ctx) AS context
-ORDER BY score DESC LIMIT $k
-```
-
-| Metric | Before (LLM librarian) | After (deterministic) |
-|--------|------------------------|-----------------------|
-| Retrieval precision / recall | ~50% | **~95%** |
-| Provenance | ~50% | **90%+** |
-| Median latency | 30 s | **1.1 s** |
-| p95 latency | 50 s | **1.8 s** |
-| Cost | 1× | **~10× lower** |
-
-<sub>Latency includes a Haiku call interpreting results. Cost fell because retry loops between clerk, planner and agent board disappeared.</sub>
-
-Then built the **Agent Factory**: consultants create new agents over synthetic data without touching code, and each agent ships with its own auto-generated golden set.
-
+<h3>aOS at Amdocs</h3>
+<p>Built a green-field agentic platform with an agent board, planner, clerk and knowledge-graph memory. Strong individual-agent scores masked an application-level retrieval bottleneck, so I added golden sets for retrieval itself.</p>
+<p>I replaced the LLM “data librarian” with deterministic, parameterised Cypher behind a narrow MCP tool, and revised the graph schemas and indexes.</p>
+<ul>
+<li><strong>Retrieval precision/recall:</strong> ~50% → ~95%.</li>
+<li><strong>Provenance:</strong> ~50% → 90%+.</li>
+<li><strong>Median latency:</strong> 30 s → 1.1 s.</li>
+<li><strong>p95 latency:</strong> 50 s → 1.8 s.</li>
+<li><strong>Cost:</strong> ~10× lower after removing retry loops.</li>
+</ul>
+<p>Latency includes the Haiku call interpreting results. The Agent Factory then enabled consultants to create agents over synthetic data without code, each with its own auto-generated golden set.</p>
 </td>
 <td width="50%" valign="top">
-
-#### 🔁 Agent Factory Eval Loop (aOS → Moira)
-```python
-# Each new agent gets its own golden set, generated and judged
-# by a *different* LLM vendor than the one that built it.
-golden = generator.make_questions(agent.spec, n=20, difficulty="graded")
-while True:
-    report = judge.score(agent, golden, criteria=[
-        "retrieval_accuracy", "hallucination_rate",
-        "provenance", "cost", "latency",
-    ])
-    if report.passes(thresholds):
-        break
-    agent.prompt = judge.propose_revision(agent.prompt, report)
-```
-
-#### 📈 Moira (TradeGuard, in progress)
-An eval harness for training and evaluating "market wizard" trading agents, executed through the TradeGuard platform:
-- **Schools**: each LLM vendor raises its own agents; another vendor and a human evaluate them
-- **Lifecycle as phases**: ingest → design (Agent Factory) → backtest → forward-test → paper trading → live → archive
-- **World model in knowledge graphs**; agents coordinate through a session KG
-- **Auditability, tracing and provenance** as first-class requirements
-
+<h3>Moira · Enterprise Product Builder</h3>
+<p>Built <strong>Moira</strong>, an <strong>Enterprise Product Builder</strong> for eval-driven product development. Its trading-agent evaluation harness and Agent Factory features are <strong>in development</strong>, with execution through the TradeGuard platform.</p>
+<ul>
+<li><strong>Schools:</strong> each LLM vendor develops its own agents; another vendor and a human evaluate them.</li>
+<li><strong>Lifecycle:</strong> ingest → design → backtest → forward-test → paper trading → live → archive.</li>
+<li><strong>Knowledge graphs:</strong> world models and shared session context for agent coordination.</li>
+<li><strong>Auditability:</strong> tracing and provenance are first-class design requirements.</li>
+</ul>
+<p>The evaluation design pairs each agent with a golden set and checks retrieval accuracy, hallucinations, provenance, cost and latency. Development is ongoing; lifecycle stages describe the intended progression.</p>
 </td>
 </tr>
 </table>
 
----
+## AI engineering at EuroWAG
 
-### 🏦 AI Engineering @ EuroWAG
-
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-#### 🧾 Touchless Invoice Pairing (IPA)
-```python
-# Fuzzy scoring + LLM top-up; a human is called only for
-# anomalies the pipeline cannot resolve on its own.
-class InvoicePairing:
-    def pair(self, vendor_tx, invoice_items):
-        match = self.matching_engine.score(vendor_tx, invoice_items)
-        if match.resolved:
-            return AutoPair(match)
-        resolved = self.llm_resolver.try_resolve(match)
-        return resolved or HumanReview(match.anomaly)
-```
-- **300 fuel vendors** onboarded to fully touchless pairing
-- Vendor verification with separated reference / hidden sets, regression runs and production confirmation across billing cycles
-- KPIs: touchless share, matching coverage vs pair correctness, LLM top-up coverage, escalation rate
-
+<h3>Touchless invoice pairing</h3>
+<p>Fuzzy matching, targeted LLM resolution and human escalation for unresolved anomalies.</p>
+<ul>
+<li><strong>300 fuel vendors</strong> onboarded to fully touchless pairing.</li>
+<li><strong>99.99% accuracy</strong> and <strong>98% straight-through processing</strong>; the remaining <strong>2% of cases</strong> are handled by an LLM agent.</li>
+<li>Vendor verification using separated reference and hidden sets, regression runs, and production confirmation across billing cycles.</li>
+<li>KPIs covering touchless share, matching coverage, pair correctness, LLM top-up coverage and escalation rate.</li>
+</ul>
 </td>
 <td width="50%" valign="top">
-
-#### 🛠️ AI Developer Platform & Enablement
-- Shared **`.claude/` toolkit**: commands, skills, subagents, MCP servers and setup guides, used by **~100 people** across two engineering units; team leads report **10–20% faster** delivery
-- **AutoDoc**: AI-generated, human-verified documentation for a 19-service domain, with HITL editing
-- Enterprise knowledge base aggregated for agent context
-- Founded **AI Guild** and hands-on **AI Lab** (biweekly)
-
-#### 💶 AI-Driven FinOps
-- Production Log Analytics spend **€12.4k → €1.7k / month (−86.5%)**, confirmed on billed invoices; **~€130k / year** saved
-- Follow-up campaign on shared platform subscriptions
-
+<h3>Developer platform and FinOps</h3>
+<ul>
+<li>Shared <strong>Claude Code toolkit</strong> used by <strong>~100 engineers</strong> across two units; team leads report <strong>10–20% faster delivery</strong>.</li>
+<li><strong>AutoDoc:</strong> AI-generated, human-verified documentation for a <strong>19-service</strong> domain, with human-in-the-loop editing.</li>
+<li>Enterprise knowledge base aggregated for agent context.</li>
+<li>Founded an <strong>AI Guild</strong> and a <strong>biweekly AI Lab</strong>.</li>
+<li><strong>Log Analytics spend:</strong> €12.4k → €1.7k/month, <strong>−86.5%</strong>, confirmed on billed invoices; <strong>~€130k/year saved</strong>.</li>
+<li>Follow-up FinOps campaign on shared platform subscriptions.</li>
+</ul>
 </td>
 </tr>
 </table>
 
----
+## Engineering toolkit and production impact
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-### 🛠️ Tech Stack
-
-**Languages:**
-```
-Rust      ████████████░░  Expert (systems, trading)
-Java      ████████████████ Expert (16+ years)
-Kotlin    ████████████░░  Advanced
-Python    ████████████░░  Advanced (ML/AI)
-TypeScript████████░░░░░░  Proficient
-Cypher    ██████████░░░░  Advanced (knowledge graphs)
-```
-
-**Backend & Microservices:**
-- Spring Boot • Quarkus 3.x • Micronaut
-- Apache Kafka • CDC (Debezium)
-- gRPC • GraphQL • REST • WebSockets
-- Event-driven (CQRS, Saga, Outbox)
-
-**Cloud & DevOps:**
-- Kubernetes • Docker • Helm
-- Azure (expert) • AWS • GCP
-- Pulumi IaC • GitLab CI/CD
-- Prometheus • Grafana • ELK • Honeycomb
-
-**Data:**
-- PostgreSQL (expert) • Neo4j • Cosmos DB • MongoDB
-- Redis • Elasticsearch
-- jOOQ • Hibernate • R2DBC
-
+<h3>Core toolkit</h3>
+<p><strong>Languages:</strong> Java (expert, 16+ years), Rust (expert), Kotlin and Python (advanced), TypeScript (proficient), Cypher (advanced).</p>
+<p><strong>Backend:</strong> Spring Boot, Quarkus 3.x, Micronaut, Kafka, Debezium CDC, gRPC, GraphQL, REST and WebSockets; CQRS, Saga and Outbox patterns.</p>
+<p><strong>Cloud:</strong> Azure (expert), AWS, GCP, Kubernetes, Docker, Helm, Pulumi and GitLab CI/CD.</p>
+<p><strong>Observability:</strong> Honeycomb, Prometheus, Grafana and ELK.</p>
+<p><strong>Data:</strong> PostgreSQL (expert), Neo4j, Cosmos DB, MongoDB, Redis, Elasticsearch, jOOQ, Hibernate and R2DBC.</p>
 </td>
 <td width="50%" valign="top">
-
-### 📊 Impact & Achievements
-
-**Agentic AI:**
-| Metric | Achievement |
-|--------|-------------|
-| 🎯 Retrieval precision/recall (aOS) | **~50% → ~95%** |
-| ⚡ Agent latency, median (aOS) | **30 s → 1.1 s** |
-| 💸 Agent cost (aOS) | **~10× lower** |
-| 🧾 Touchless invoice pairing | **300** fuel vendors |
-| 🛠️ AI toolkit adoption | **~100** engineers |
-| 💶 Observability spend | **−86.5%** (~€130k/yr) |
-
-**Production Systems:**
-| Metric | Achievement |
-|--------|-------------|
-| 🎯 Trader success | **90%** (TradeGuard, 200+ validated) |
-| 💰 AI platform revenue | **800K CZK** |
-| ⚡ Trading latency | **<10ms** (Rust engine) |
-| 🏦 Payment throughput | **600K+** txs/hour |
-| 📈 Fintech scale | **300K+** txn writes/min |
-
-**Research & Open Source:**
-| Metric | Achievement |
-|--------|-------------|
-| 📝 Publications | **11** peer-reviewed |
-| 📚 Citations | **73** <!-- verify on Google Scholar before publishing --> |
-| 🏆 Best Paper Awards | **3** |
-| 🎓 Students taught | **200+** |
-| 🔧 Eclipse PRs | **50+** merged |
-
+<h3>Production systems</h3>
+<ul>
+<li><strong>90% trader success</strong> at TradeGuard, with <strong>200+ validated</strong>.</li>
+<li><strong>800K CZK</strong> AI platform revenue.</li>
+<li><strong>&lt;10 ms</strong> trading latency with a Rust engine.</li>
+<li><strong>600K+ transactions/hour</strong> payment throughput.</li>
+<li><strong>300K+ transaction writes/minute</strong> fintech scale.</li>
+<li><strong>200+ production microservices</strong> and systems serving <strong>millions of users</strong>.</li>
+</ul>
 </td>
 </tr>
 </table>
 
----
+## Research in human–AI collaboration
 
-### 🔬 Research: Human-AI Collaboration
-
-<table>
+<table width="100%">
 <tr>
-<td width="60%" valign="top">
-
-**PhD Dissertation (Defended October 2025, VŠE Prague):**
-*"Human-AI Programming Role Optimization: Developing a Self-Determination Framework"*
-
-**Key Finding:**
-AI-assisted development increases programmer motivation by **23–65%** when optimized for individual personality types (Big Five) and working styles (Self-Determination Theory).
-
-**Practical Applications:**
-- 🎯 When AI agents should lead vs. support developer decisions
-- 🖥️ Designing interfaces that respect developer autonomy
-- 📊 Measuring AI tool effectiveness beyond productivity metrics
-- 🏢 Change management for AI adoption in enterprise (applied daily via AI Guild / AI Lab)
-
+<td width="50%" valign="top">
+<h3>Developer motivation and autonomy</h3>
+<p><strong>PhD, VŠE Prague, defended October 2025:</strong> <a href="https://arxiv.org/abs/2511.00417"><em>Human-AI Programming Role Optimization: Developing a Personality-Driven Self-Determination Framework</em></a>.</p>
+<p><strong>Key finding:</strong> AI-assisted development increases programmer motivation by <strong>23–65%</strong> when optimised for individual Big Five personality types and working styles through Self-Determination Theory.</p>
+<p>I apply this work to agent leadership and support roles, interfaces that respect developer autonomy, measuring AI benefit beyond productivity, and enterprise adoption through the AI Guild and AI Lab.</p>
+<p><strong>11 peer-reviewed publications · 73 citations · 3 Best Paper Awards · 200+ students taught</strong></p>
 </td>
-<td width="40%" valign="top">
-
-**Select Publications:**
-- **PeerJ CS** (Q1): Personality-Driven Pair Programming
-- **IEEE ICSME** (CORE-A): AI-Assisted Programming Psychology *(45 citations)*
-- **EASE** (CORE-A): Psychological Aspects of Pair Programming
-- **ACIE'25**: Blockchain-Driven Transparent Research *(Best Paper)*
-- **CIMPS'22**: *(Best Paper)*
-- **DD FIS VSE'22**: *(Best Paper)*
-
+<td width="50%" valign="top">
+<h3>Selected publications</h3>
+<ul>
+<li><strong>PeerJ Computer Science (Q1):</strong> <a href="https://doi.org/10.7717/peerj-cs.2774">Personality-based pair programming</a>.</li>
+<li><strong>IEEE ICSME (CORE-A):</strong> <a href="https://doi.org/10.1109/ICSME58846.2023.00050">The Psychological Effects of AI-Assisted Programming on Students and Professionals</a>; <strong>45 citations</strong>.</li>
+<li><strong>EASE (CORE-A):</strong> Psychological Aspects of Pair Programming.</li>
+<li><strong>ACIE ’25:</strong> Blockchain-Driven Transparent Research; <strong>Best Paper</strong>.</li>
+<li><strong>CIMPS ’22:</strong> <strong>Best Paper</strong>.</li>
+<li><strong>DD FIS VŠE ’22:</strong> <strong>Best Paper</strong>.</li>
+<li><strong>PROFES 2026, accepted:</strong> <em>Delegation without Abdication</em>; qualitative study with <strong>13 developers</strong>.</li>
+</ul>
+<p><a href="https://scholar.google.com/citations?user=fQUPwoQAAAAJ">Publication list</a></p>
 </td>
 </tr>
 </table>
 
----
+## Open source and enterprise foundations
 
-<table>
+<table width="100%">
 <tr>
-<td width="33%" valign="top">
-
-### 🌟 Open Source
-
-**Oracle / Eclipse Foundation:**
-- Designed and implemented **Bean Validation (JSR 303)** integration on both sides of Java XML binding:
-  - **JAXB**: BV support in the XJC and JXC plugins; BV-annotation package shipped in the **JDK 9** distribution
-  - **[EclipseLink](https://github.com/eclipse-ee4j/eclipselink) MOXy**: released in EclipseLink 2.6 (2015)
-- **57–92%** performance improvements
-- 50+ merged PRs
-
-**Interests:**
-- AI agent tooling & evals
-- MCP ecosystem
-- Rust systems programming
-
+<td width="50%" valign="top">
+<h3>Oracle and Eclipse</h3>
+<p>Designed and implemented <strong>Bean Validation (JSR 303)</strong> integration on both sides of Java XML binding.</p>
+<ul>
+<li><strong>JAXB:</strong> Bean Validation support in the XJC and JXC plugins; the BV-annotation package shipped in the <strong>JDK 9</strong> distribution.</li>
+<li><strong>EclipseLink MOXy:</strong> integration released in <strong>EclipseLink 2.6 (2015)</strong>.</li>
+<li><strong>57–92% performance improvements.</strong></li>
+<li><strong>50+ merged Eclipse pull requests.</strong></li>
+</ul>
+<p><a href="https://www.eclipse.org/lists/eclipselink-dev/msg07133.html">EclipseLink committer</a> · <a href="https://github.com/eclipse-ee4j/eclipselink">EclipseLink repository</a></p>
 </td>
-<td width="33%" valign="top">
-
-### 🎯 Enterprise Experience
-
-**16+ Years Building:**
-- 200+ microservices in production
-- Systems serving millions of users
-- Fintech, telecom, CRM, IoT, trading platforms
-
-**Where I've Built:**
-- 🏦 EuroWAG (fleet payments)
-- 📡 Amdocs (agentic platforms)
-- 📱 T-Mobile Czech Republic
-- ☕ Oracle Corporation
-- 🏦 Home Credit International
-- 🏭 Rockwell Automation
-- 🏛️ Ministry of Interior CZ
-- 💳 DNZ Finance (crypto)
-- 📊 Adastra
-
-</td>
-<td width="33%" valign="top">
-
-### 🔧 Current Interests
-
-**Building:**
-- Evals-first agent harnesses
-- MCP servers for enterprise AI
-- Knowledge-graph agent memory
-- Rust + Python hybrid systems
-
-**Exploring:**
-- Measuring AI benefit via unit economics (cost per invoice / release / incident)
-- AI agent payment protocols
-- Autonomous agent orchestration
-- Browser automation + AI
-
+<td width="50%" valign="top">
+<h3>Enterprise experience and interests</h3>
+<p><strong>16+ years</strong> across fintech, telecom, CRM, IoT and trading: EuroWAG, Amdocs, T-Mobile Czech Republic, Oracle, Home Credit International, Rockwell Automation, Ministry of Interior CZ, DNZ Finance and Adastra.</p>
+<p><strong>Building:</strong> evals-first agent harnesses, enterprise MCP servers, knowledge-graph memory, and Rust/Python hybrid systems.</p>
+<p><strong>Exploring:</strong> AI unit economics per invoice, release and incident; agent payment protocols; autonomous orchestration; and browser automation with AI.</p>
 </td>
 </tr>
 </table>
 
----
+## Connect
 
-<div align="center">
+Open to agent-platform engineering, evals and reliability, MCP development, research collaboration and technical consulting.
 
-### 💬 Let's Connect
+**Prague / Remote-first · currently Asia** · [marcel@tradeguard.cz](mailto:marcel@tradeguard.cz) · [LinkedIn](https://linkedin.com/in/marcelv3612)
 
-**Open to:**
-AI Agent Platform Engineering • Evals & Agent Reliability • MCP Server Development • Research Collaboration • Technical Consulting
-
-📧 **marcel@tradeguard.cz**
-🌏 **Location:** Prague / Remote-first (currently Asia)
-💼 **Status:** Building @ TradeGuard · Leading AI Engineering @ EuroWAG
-
----
-
-*"The best AI systems don't replace humans; they amplify human judgment with superhuman data processing."*
-
----
-
-### 🏆 Quick Stats
-
-![](https://img.shields.io/badge/Languages-Czech%20%7C%20English%20%7C%20Russian-blue)
-![](https://img.shields.io/badge/Experience-16%2B%20years-green)
-![](https://img.shields.io/badge/AI%2FML-Agents%20%7C%20Evals%20%7C%20MCP%20%7C%20KG-purple)
-![](https://img.shields.io/badge/Publications-11-orange)
-![](https://img.shields.io/badge/Citations-73-red)
-
-</div>
+**Languages:** Czech · English · Russian
